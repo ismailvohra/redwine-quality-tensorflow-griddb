@@ -276,7 +276,15 @@ df.loc({columns:['pH',
 // ║ quality   │ int32   ║
 // ╚═══════════╧═════════╝
 ```
+We now move towards accessing the data for analysis. For simplicity's sake, we will cover the *csv* approach in our tutorial. You may, however, access the data from the GridDB container as follows:
+```
 
+    # Get the containers
+    obtained_data = gridstore.get_container("redwinequality")
+    
+    # Fetch all rows - language_tag_container
+    query = obtained_data.query("select *")
+```
 
 We will now look at a summary of statistics for all the columns to check their minimums, maximums, means, standard deviations etc.
 
