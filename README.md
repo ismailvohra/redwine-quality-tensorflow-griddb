@@ -197,7 +197,7 @@ fs.createReadStream('./dataset/winequality-red.csv')
 ```
 
 
-Then in the same code we fetch the data from GridDB and write it to a csv file. The reason why we did this was because the project file runs on node version 12 where as the griddb code runs on node version 10.
+Then in the same code we fetch the data from GridDB and write it to a csv file. 
 ```javascript
 let df = await dfd.readCSV("./out.csv")
 ```
