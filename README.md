@@ -6,7 +6,7 @@ For this tutorial we will be using the following Libraries for NodeJS.
 * TensorflowJS - For training models
 * DanfoJS - For working with DataFrames
 
-It is useful to work with Node Notebooks for this as they make experimenting with Data Science and ML easier. Visual Studio Code is a great editor that supports Node Notebooks and we are going to use it for this article. Note: For Danfo JS and Tensorflow JS we need at least node version 12 where as griddb works on node version 10.
+It is useful to work with Node Notebooks for this as they make experimenting with Data Science and ML easier. Visual Studio Code is a great editor that supports Node Notebooks and we are going to use it for this article. 
 
 ```javascript
 const dfd = require("danfojs-node")
